@@ -1,0 +1,236 @@
+#no-corona-popup {
+    font-family: "Courier New", "Helvetica Neue", "Lucida Grande", Tahoma, serif;
+    font-size: 100%;
+    min-width: 340px;
+    max-width: 340px;
+    color:#000000;
+    background-color: #F3F3F3;
+    padding:30px 30px 15px 30px;
+    margin: 0;
+}
+
+#no-corona-popup #title {
+    font-size: 40px;
+    font-weight: bold
+}
+
+#no-corona-popup #subtitle {
+    margin-top: 14px;
+    font-size: 17px
+}
+
+#no-corona-popup #subtitle a:active {
+    color: black;
+    border-bottom-color: black
+}
+
+#no-corona-popup #no-corona-logo {
+    height: 62px;
+    margin-left: 34px;
+    margin-bottom: 10px
+}
+
+#no-corona-popup .setting-holder {
+    height: 2em;
+    line-height: 2.1em;
+    font-size: 1.08em;
+    margin-top: 4px;
+}
+
+#no-corona-popup textarea {
+    border-radius: 6px;
+    border-color: #c1bebe;
+    padding: 4px;
+    width: 330px;
+    height: 25px;
+    resize: none;
+    outline: none;
+    transition: width 0.5s ease-in 0s, height 0.5s ease-in 0s
+}
+
+#no-corona-popup .font-10{
+    font-size: 10px !important;
+    line-height: 11px;
+}
+
+#no-corona-popup .font-12{
+    font-size: 12px !important;
+}
+
+#no-corona-popup .font-14{
+    font-size: 14px !important;
+}
+
+#no-corona-popup .font-18{
+    font-size: 18px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+#no-corona-popup .hide-block{
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+
+#no-corona-popup .check-box:before{
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #c1bebe;
+    margin-top: -2px;
+}
+
+#no-corona-popup .check-box:checked:before {
+    background-color: white;
+    background-image: url("../assets/images/checkbox.svg");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-x: 2px;
+    background-position-y: 2px;
+  }
+
+#no-corona-popup .add-extra{
+    text-align: left;
+    line-height: 18px;
+}
+
+#no-corona-popup .credits{
+    color:#4D575E;
+    text-align: center;
+}
+
+#no-corona-popup .credits a{
+    font-weight: bold;
+    color:#4D575E;
+    text-decoration: underline;
+}
+
+#no-corona-popup .setting-holder .setting-text.centered {
+    width: 100%;
+    text-decoration: underline
+}
+
+#no-corona-popup #num-spoilers-prevented {
+    border-bottom: 1px solid #C1BEBE;
+    padding-top: 9px;
+    text-align: center;
+    padding-bottom: 16px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+#no-corona-popup .onoffswitch {
+    position: relative;
+    margin: 0 auto;
+    width: 174px;
+    -ms-user-select: none
+}
+
+#no-corona-popup .onoffswitch:hover .onoffswitch-switch {
+    background-color: #FF9C9C
+}
+
+
+#no-corona-popup .enabled-holder 
+{
+    height: 60px;
+}
+
+#no-corona-popup .enabled-holder .onoffswitch-checkbox {
+    display: none
+}
+
+#no-corona-popup .enabled-holder input:before{
+    content:"";
+    display: block;
+    width: 168px;
+    height: 60px;
+    background-image: url("../assets/images/switch-off.png");
+    background-size: cover;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+
+#no-corona-popup .enabled-holder input:checked:before{
+    background-image: url("../assets/images/switch-on.png");
+}
+
+
+#no-corona-popup .onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 76px;
+}
+
+#no-corona-popup .hide-block label{
+    cursor: pointer;
+}
+
+#no-corona-popup .onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s
+}
+
+#no-corona-popup .onoffswitch-inner:before,
+#no-corona-popup .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box
+}
+
+#no-corona-popup .onoffswitch-inner:before {
+    content: "ON";
+    padding-right: 27px;
+    background-color: black;
+    color: #FFFFFF
+}
+
+#no-corona-popup .onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 9px;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right
+}
+
+#no-corona-popup .onoffswitch-switch {
+    display: block;
+    width: 34px;
+    margin: 0px;
+    background-image: url("assets/images/virus.png");
+    background-color: white;
+    background-size: 30px 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 49px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    background-repeat: no-repeat;
+    background-position: 2px 1px;
+    border: 1px solid black
+}
+
+#no-corona-popup .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0
+}
+
+#no-corona-popup .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+    right: 5px
+}
